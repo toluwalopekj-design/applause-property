@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Applause Property | Premium Real Estate</title>
-    <!-- This links your CSS file to your HTML page -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Hero Section -->
     <main class="hero">
         <div class="container hero-content">
             <h1>Delivering Comfort,<br> One Property at a Time.</h1>
             <p>Explore our premium real estate listings in Asaba and beyond. Secure your future with Applause Property.</p>
-            
             <div class="hero-actions">
                 <button class="btn">Book Inspection</button>
                 <button class="btn-outline">View All Estates</button>
             </div>
         </div>
     </main>
+
+    <!-- Property Grid Section -->
+    <section class="properties">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; color: #1a1a1a;">Featured Estates</h2>
+            <div class="property-grid">
+                
+                {% for estate in site.data.properties %}
+                <div class="card">
+                    <img src="assets/hero-bg.jpg" alt="{{ estate.name }}">
+                    <h3 style="color: #1a1a1a;">{{ estate.name }}</h3>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">{{ estate.location }}</p>
+                    
+                    <!-- Title Badge -->
+                    <div style="margin-bottom: 0.5rem; font-size: 0.8rem; font-weight: 600; color: #2e7d32;">
+                        {{ estate.title }}
+                    </div>
+
+                    <div class="price-tag" style="color: #0a290a;">{{ estate.promo_price }}</div>
+                    <button class="btn-outline" style="margin-top: 1rem; border-color: #0a290a; color: #0a290a;">View Details</button>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
