@@ -35,7 +35,7 @@ layout: default
                 
                 {% for estate in site.data.properties %}
                 <div class="card">
-                    <img src="assets/hero-bg.jpg" alt="{{ estate.name }}">
+                   <img src="assets/{{ estate.image }}" alt="{{ estate.name }}">
                     <h3 style="color: #1a1a1a;">{{ estate.name }}</h3>
                     <p style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">{{ estate.location }}</p>
                     
