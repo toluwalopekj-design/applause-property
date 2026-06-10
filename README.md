@@ -1,3 +1,3 @@
-# Applause Property
+# Applause Property.
 Official website for Applause Property.
 
