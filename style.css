@@ -63,3 +63,20 @@ body {
     color: var(--text-dark);
 }
 
+/* Primary Button (The "Book Inspection" button) */
+.btn {
+    padding: 12px 24px;
+    background-color: var(--brand-lime); /* Neon lime */
+    color: var(--text-dark);
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
