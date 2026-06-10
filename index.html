@@ -33,7 +33,7 @@ layout: default
             <h2 style="text-align: center; margin-bottom: 3rem; color: #1a1a1a;">Featured Estates</h2>
             <div class="property-grid">
                 
-                {% for estate in site.data.properties %}
+               <img src="{{ estate.image }}" alt="{{ estate.name }}">
                 <div class="card">
                    <img src="assets/{{ estate.image }}" alt="{{ estate.name }}">
                     <h3 style="color: #1a1a1a;">{{ estate.name }}</h3>
