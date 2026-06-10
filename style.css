@@ -1,3 +1,23 @@
+:root {
+    /* Brand Colors extracted from your flyers */
+    --brand-deep-green: #0a290a;   /* Deep Forest Background */
+    --brand-lime: #cfff00;         /* Neon Promo Accent */
+    --text-white: #ffffff;
+    --text-dark: #1a1a1a;
+    
+    /* Typography */
+    --font-family: 'Inter', -apple-system, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--brand-deep-green); 
+    color: var(--text-white);
+    line-height: 1.6;
+}
+
+/* Add your existing code below this... */
+
 /* Hero Section Layout */
 .hero {
     min-height: 80vh; /* Takes up most of the screen */
