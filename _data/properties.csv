@@ -1,11 +1,11 @@
-name,promo_price,actual_price,location,title
-Applause Court,N45M,N50M,Behind Immigration Ibusa,C of O
-Ibusa Villa,N28.5M,N33M,Admirarity Drive Ibusa,C of O
-Divine City Estate,N6M,N10M,Isieke Umuekea Ibusa,Registered Survey & Deed of Assignment
-Royal City Estate,N22.5M,N33M,Isitua Okafor Street Ibusa,C of O
-Treasure Park,N10M,N15M,Otulu Asaba,C of O
-De Royal Court,N20M,N24M,Umuehea Ibusa,C of O
-Divine Hilltop,N8M,N12M,Ogidigba Umuidi Rd Ibusa,Registered Survey & Deed of Assignment
-Divine Royal,N25M,N30M,Zion Road Ibusa,C of O
-Amaeze Estate,N18.5M,N22.5M,Ibusa,Registered Survey & Deed of Assignment
-Ibusa Amaka Estate,N19.5M,N25M,Ogidigba Umuidi Ibusa,C of O
+name,promo_price,actual_price,location,title,image
+Applause Court,N45M,N50M,Behind Immigration Ibusa,C of O,applause-court.jpg
+Ibusa Villa,N28.5M,N33M,Admirarity Drive Ibusa,C of O,ibusa-villa.jpg
+Divine City Estate,N6M,N10M,Isieke Umuekea Ibusa,Registered Survey & Deed of Assignment,divine-city-estate.jpg
+Royal City Estate,N22.5M,N33M,Isitua Okafor Street Ibusa,C of O,royal-city-estate.jpg
+Treasure Park,N10M,N15M,Otulu Asaba,C of O,treasure-park.jpg
+De Royal Court,N20M,N24M,Umuehea Ibusa,C of O,de-royal-court.jpg
+Divine Hilltop,N8M,N12M,Ogidigba Umuidi Rd Ibusa,Registered Survey & Deed of Assignment,divine-hilltop.jpg
+Divine Royal,N25M,N30M,Zion Road Ibusa,C of O,divine-royal.jpg
+Amaeze Estate,N18.5M,N22.5M,Ibusa,Registered Survey & Deed of Assignment,amaeze-estate.jpg
+Ibusa Amaka Estate,N19.5M,N25M,Ogidigba Umuidi Ibusa,C of O,ibusa-amaka-estate.jpg
